@@ -1,0 +1,52 @@
+#video_tile a, #experience_tile a, #skills_tile a, #education_tile a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#education_tile a:hover {
+  color: #DDDDDD;
+}
+
+#skills_tile a:hover {
+  color: #DDDDDD;
+}
+
+#experience_tile a:hover {
+  color: #DDDDDD;
+}
+
+#video_tile a:hover {
+  color: #DDDDDD;
+}
+
+#header {
+  color: #0074D9;
+  text-decoration: none;
+  text-align: left;
+}
+
+#description {
+  text-align: left;
+}
+
+.infos {
+  text-align: left;
+}
+
+#portret {
+  width: 100%;
+}
+
+footer {
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+.tile {
+  text-align: center;
+  padding: 1em;
+  background: #2E85FF;
+}
+
+/*# sourceMappingURL=index.css.map */
