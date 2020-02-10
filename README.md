@@ -18,3 +18,7 @@ Files:
 2) experience.html - description of my expertise until 11/2019 (has to be updated).
 3) skill.html - couple progress bars showing knowledge of specific technologies
 4) projects.html - couple of projects to show, has to be extended.
+
+## Technology stack:
+Bootstrap 4.
+CSS file was generated using Sass. The features of Sass such as variables, inheritance and nesting were used.
