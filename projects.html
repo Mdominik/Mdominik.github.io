@@ -3,7 +3,7 @@
     <head>
         <title>Dominik Mazniak Resume</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="flags.min.css">
         <link rel="stylesheet" href="flags.css">
@@ -14,7 +14,7 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-6 col-sm-6 col-6 pb-2 mt-4 mb-2 border-bottom">
-              <img src="resources/image1.jpg" class="img-fluid" id="portret" alt="Responsive image">
+              <img src="resources/image1.jpg" class="img-fluid rounded-circle" id="portret" alt="Responsive image">
           </div>
 
           <div class="col-lg-5 col-md-6 col-sm-6 col-12 pb-2 mt-4 mb-2 border-bottom">
@@ -40,7 +40,8 @@
 
         <div class="row" id="tiles_id">
           <div class="col-lg-3 col-md-3 col-sm-6 col-12 tile">
-            <h3 id="education_tile"><a href="education.html">education</a></h3>
+            <h3 id="education_tile"><a href="education.html">
+              <i class="fas fa-book"></i> education</a></h3>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-6 col-12 tile">
             <h3 id="experience_tile"><a href="exp_proj.html">experience</a></h3>
@@ -49,7 +50,7 @@
             <h3 id="skills_tile"><a href="skills.html">skills</a></h3>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-6 col-12 tile">
-            <h3 id="video_tile"><a href="projects.html">projects</a></h3>
+            <h3 id="video_tile" ><a href="projects.html">projects</a></h3>
           </div>
         </div>
         <div class="row" id="tiles_id">
@@ -58,19 +59,19 @@
                 1st place in the world in University Rover Challenge 2018. <br/>
 News: <a href="http://urc.marssociety.org/home/urc-news/universityroverchallengetitlereturnstopoland ">URC winners</a> <br />
 My website of the project: <a href="http://rover.pcz.pl"> PCz Rover Team </a></br/>Description:
-            
+
 	Development of algorithm used to determine the error of the heading of the robot based on given GPS coordinates of the goal and current position of the robot. To increase the accuracy of GPS, Kalman filter with accelerometer was used. <br/><br/>
             <img src="resources/lazik.jpg" class="img-fluid" id="portret" alt="Responsive image">
-            
+
           </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col- pb-2 mt-4 mb-2 border-bottom">
            <h4>Design of Mecanum Robot on ROS + safety system with PLC and ultrasonic sensors </h4> <br/>
                 4-wheeled robot with Mecanum wheels was developed for the company Buck Engineering GmbH. <br/>
 Description:
-            
-	As my industrial praktikum / project, I had to design a robot that could be used in warehouses and factories. 
-The 600 mm x 800mm x 17mm design makes it possible to transport europalets. <br/>Soft suspension with springs was implemented. 
-<br/>The control system is based on ROS Kinetic and the robot is steerable with Joystick using Wi-Fi. 
+
+	As my industrial praktikum / project, I had to design a robot that could be used in warehouses and factories.
+The 600 mm x 800mm x 17mm design makes it possible to transport europalets. <br/>Soft suspension with springs was implemented.
+<br/>The control system is based on ROS Kinetic and the robot is steerable with Joystick using Wi-Fi.
 
 My bachelor thesis is continuation of this project. The safety system with PLC and distance sensors is being implemented together with Graphical User Interface based on Qt custom plugin for ROS. <br/><br/>
             <img src="resources/mecanum.jpg" class="img-fluid" id="portret" alt="Responsive image">
@@ -78,13 +79,23 @@ My bachelor thesis is continuation of this project. The safety system with PLC a
           <div class="col-lg-6 col-md-6 col-sm-6 col- pb-2 mt-4 mb-2 border-bottom">
            <h4>Obstacle avoidance with ROS (bug0 algorithm, laser scanner)</h4> <br/>
           Full github repository: <a href="https://github.com/Mdominik/ROS-turtle">https://github.com/Mdominik/ROS-turtle</a>
-            
+
 	<br/>The Final Project for Autonomous Mobile Robots class at Hochschule Ravenbsurg-Weingarten. Full description in the repo. <br/>Done in Python.
-            
-            
+
+
           </div>
         </div>
       </div>
-	<footer></footer>
+      <!-- Footer -->
+      <footer class="page-footer font-small blue">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://www.linkedin.com/in/dominik-mazniak-65967b100/">Dominik Mazniak</a>
+      </div>
+      <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
     </body>
 </html>
